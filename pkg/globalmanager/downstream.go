@@ -166,7 +166,7 @@ func NewDownstreamController(cfg *config.ControllerConfig) (FeatureControllerI, 
 		return nil, fmt.Errorf("create crd client failed with error: %w", err)
 	}
 
-	dc := &DownstreamController{
+	dc := &DownstreamController0{
 		cfg:          cfg,
 		events:       events,
 		client:       crdclient,
