@@ -64,7 +64,7 @@ jobs:
 
   basic_test:
     runs-on: ubuntu-latest
-    name: 'Unit test, integration test edge (noop)'
+    name: 'Unit test, integration test edge (noop now)'
     steps:
       - name: Install Go
         uses: actions/setup-go@v2
@@ -88,7 +88,7 @@ jobs:
 
   e2e_test:
     runs-on: ubuntu-latest
-    name: 'E2e test (noop)'
+    name: 'E2e test (noop now)'
     steps:
       - name: Install Go
         uses: actions/setup-go@v2
